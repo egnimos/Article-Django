@@ -3,8 +3,8 @@ from django.http import HttpResponse, HttpResponseNotFound
 
 # Create your views here.
 def login(request):
-    return HttpResponse("<h1>Login Page</h1>")
+    return render(request, "auth_app/auth.html")
 
 
 def register(request):
-    return HttpResponse("<h1>Register Page</h1>")
+    return render(request, "auth_app/register.html")

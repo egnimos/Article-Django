@@ -3,5 +3,9 @@
     "folder-path-color.folders": [
         {"path": "blog", "symbol": "🪬", "color": "green", "tooltip": "project files"}
     ],
-    "editor.fontSize": 18
+    "editor.fontSize": 18,
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "jinja-html": "html",
+    }
 }

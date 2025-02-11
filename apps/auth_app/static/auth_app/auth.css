@@ -1,0 +1,44 @@
+.container-auth {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-signin {
+    max-width: 95%;
+    width: 530px;
+    padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.container-auth-sec-panel {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/7598077/pexels-photo-7598077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+@media screen and (width < 800px) {
+    .container-auth-sec-panel {
+        display: none;
+    }
+}
